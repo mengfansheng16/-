@@ -1,0 +1,25 @@
+第一篇2017/7/31：初识大蟒蛇(Python)
+
+学习网站：①廖雪峰&python3教程
+视频教程： MOOC上的①《python高级编程》——哈工大
+					 ② 《python入门基础》——北京理工大学
+           
+辗转反侧，痛定思痛，终于开始学习Pyton.
+
+过程：简介→安装py→
+抬头：Type "help", "copyright", "credits" or "license" for more information.
+输入“帮助”、“版权”、“信用”或“许可”以获得更多信息。
+
+Error：
+1.键入命令 print ‘hello,world’ ，竟然get了错误，是语法错误。
+
+语法错误：SyntaxError: Missing parentheses in call to 'print'
+          语法错误:在调用“print”时缺失了括号
+错误解释：py2.x在用print时不用加()，而py3.x需要加()
+纠错：
+ 
+2.单引号或双引号都是成对出现的，而且会识别距离最近的下一个引号。如下例：
+ 
+此处的 ’  ,与第一个匹配了，导致错误。
+
+3.print后面加不加空格都可以；
